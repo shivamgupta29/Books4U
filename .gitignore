@@ -1,0 +1,10 @@
+# Ignore python envs 
+**/venv/
+**/__pycache__/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore environment secrets
+.env
