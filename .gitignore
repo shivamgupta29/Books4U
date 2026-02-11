@@ -1,10 +1,24 @@
-# Ignore python envs 
-**/venv/
-**/__pycache__/
+# --- Node.js (Client & Server) ---
+**/node_modules/
+**/dist/
+**/build/
+.eslintcache
+.stylelintcache
 
-# Ignore OS files
+# --- Python (server-model) ---
+**/venv/
+**/env/
+**/__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- Environment Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- System Files ---
 .DS_Store
 Thumbs.db
-
-# Ignore environment secrets
-.env
