@@ -1,0 +1,6 @@
+pandas
+sentence_transformers
+numpy
+sklearn
+dotenv
+groq
